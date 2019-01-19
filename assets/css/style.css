@@ -1,11 +1,16 @@
 @import "fontiran.css";
-*{
+
+* {
     margin: 0;
     font-family: IRANSans;
     direction: rtl;
 }
 
-#header{
+.clearfix {
+    clear: both;
+}
+
+#header {
     background: #3393F9;
     height: 70px;
     width: 100%;
@@ -14,7 +19,7 @@
 }
 
 
-#section-one{
+#section-one {
     width: 33%;
     height: 100%;
     direction: ltr;
@@ -22,41 +27,50 @@
     margin-top: 10px;
 }
 
-#section-tow{
+#section-tow {
     width: 33%;
     height: 100%;
     float: right;
     margin-top: 15px;
     color: white;
 }
-#section-tow ul li{
+
+#section-tow ul li {
     list-style: none;
     display: inline-block;
 
 }
-#section-tow ul li a{
+
+#section-tow ul li a {
     text-decoration: none;
     color: white;
     font-size: 12pt;
 }
-#section-three{
+
+#section-tow ul li i {
+    margin-left: 5px;
+}
+
+#section-three {
     width: 34%;
     height: 100%;
     float: right;
     margin-top: 10px;
 }
-#section-three ul li{
+
+#section-three ul li {
     list-style: none;
     display: inline-block;
     margin-right: 10px;
 }
 
-#section-three ul li a{
+#section-three ul li a {
     text-decoration: none;
     color: white;
     font-size: 12pt;
 }
-.btn_sub{
+
+.btn_sub {
     border: none;
     padding: 10px;
     background-color: #4CAF50;
@@ -65,4 +79,137 @@
     -moz-border-radius: 4px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+#titr {
+    height: auto;
+    direction: rtl;
+    width: 55%;
+    margin: 0 auto;
+
+}
+
+.title-titr {
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.lead-titr {
+    color: #7f787d;
+    font-size: 12pt;
+    margin-left: 10px;
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.titr-footer {
+    font-size: 9pt;
+    color: #b5b5b5;
+}
+
+#map {
+    height: 200px;
+    background-color: yellow;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#footer {
+    border-top: 1px solid #f3f3f3;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+
+}
+
+#foot-section-top {
+    width: 80%;
+    height: 100%;
+    margin: 15px auto;
+
+}
+
+#foot-sec-first {
+    float: right;
+    width: 15%;
+    height: 100%;
+}
+
+#foot-sec-first ul li {
+    list-style: none;
+}
+
+#foot-sec-first ul li:first-child {
+    font-weight: bold;
+
+}
+
+#foot-sec-first ul li a {
+    font-size: 10pt;
+    text-decoration: none;
+    color: #322d30;
+}
+
+#foot-sec-center {
+    float: right;
+    width: 15%;
+    height: 100%;
+}
+
+#foot-sec-center ul li {
+    list-style: none;
+}
+
+#foot-sec-center ul li:first-child {
+    font-weight: bold;
+}
+
+#foot-sec-center ul li a {
+    font-size: 10pt;
+    text-decoration: none;
+    color: #322d30;
+}
+
+#foot-sec-last {
+    float: right;
+    width: 15%;
+    height: 100%;
+}
+
+#foot-sec-last ul li {
+    list-style: none;
+}
+
+#foot-sec-last ul li:first-child {
+    font-weight: bold;
+}
+
+#foot-sec-last ul li a {
+    font-size: 10pt;
+    text-decoration: none;
+    color: #322d30;
+}
+
+#foot-section-bottom{
+    background-color: #fff5fc;
+    border-top: 1px solid #eee;
+    box-shadow: 1px 1px 1px #dbdbdb;
+}
+#foot-section-bottom p{
+    text-align: center;
+    color: #575755;
+    font-size: 9pt;
+}
+ul#social{
+    text-align: center;
+}
+#social li{
+    display: inline-block;
+    margin-left: 5px;
+}
+#social li a{
+    text-decoration: none;
+    color: #aaa;
+    font-size: 14pt;
 }
