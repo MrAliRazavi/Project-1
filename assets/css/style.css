@@ -1,0 +1,68 @@
+@import "fontiran.css";
+*{
+    margin: 0;
+    font-family: IRANSans;
+    direction: rtl;
+}
+
+#header{
+    background: #3393F9;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+    box-shadow: 1px 1px 1px #e7e7e7;
+}
+
+
+#section-one{
+    width: 33%;
+    height: 100%;
+    direction: ltr;
+    float: right;
+    margin-top: 10px;
+}
+
+#section-tow{
+    width: 33%;
+    height: 100%;
+    float: right;
+    margin-top: 15px;
+    color: white;
+}
+#section-tow ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+#section-tow ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+}
+#section-three{
+    width: 34%;
+    height: 100%;
+    float: right;
+    margin-top: 10px;
+}
+#section-three ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#section-three ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+}
+.btn_sub{
+    border: none;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
