@@ -111,7 +111,6 @@
 
 #map {
     height: 200px;
-    background-color: yellow;
     width: 80%;
     margin: 0 auto;
 }
@@ -212,4 +211,30 @@ ul#social{
     text-decoration: none;
     color: #aaa;
     font-size: 14pt;
+}
+
+#map_img{
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+#map_name{
+    width: 50%;
+    height: 50%;
+    float: left;
+  
+}
+#map_name ul li{
+    list-style: none;
+    line-height: 35px;
+
+}
+
+#map_name ul li a{
+    color: #322d30;
+    text-decoration: none;
+}
+#map_name ul li a:hover{
+    color: orange;
 }
